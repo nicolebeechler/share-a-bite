@@ -39,7 +39,7 @@ handleSubmit = async (evt) => {
     this.setState({ error: 'Sign Up Failed - Try Again' });
   }
 };
-
+ 
 // We must override the render method
 // The render method is the equivalent to a function-based component
 // (its job is to return the UI)

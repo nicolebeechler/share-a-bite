@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
+import styles from "./LoginForm.module.scss"
+import { CircleX } from 'lucide-react'
 
 export default function LoginForm({ setUser, setShowLoginForm }) {
 const [credentials, setCredentials] = useState({
@@ -29,17 +31,19 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <div className="form-container">
+    <div className={styles.popupContainer}>
+    <button className={styles.closePopup} onClick={(e)=>{setShowLoginForm(false)}}><CircleX /></button>
+    <div className={styles.formContainer}>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <label>Email</label>
         <input type="text" name="email" value={credentials.email} onChange={handleChange} required />
         <label>Password</label>
         <input type="password" name="password" value={credentials.password} onChange={handleChange} required />
-        <button type="submit">LOG IN</button>
+        <button type="submit">Login</button>
       </form>
     </div>
+    </div>
     <p className="error-message">&nbsp;{error}</p>
-    <button onClick={(e)=>{setShowLoginForm(false)}}>X</button>
   </div>
 );
 }
