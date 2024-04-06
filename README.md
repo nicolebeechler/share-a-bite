@@ -85,8 +85,8 @@ https://trello.com/b/scJATDml
 
 ## Contributors: 
 
-[Nicole Beechler](https://github.com/nicolebeechler)
-[Paul Shephard](https://github.com/pshephardiii)
-[Junfeng Qiao](https://github.com/EmmaQjf)
-[Omar Ibraheem](https://www.linkedin.com/in/omar-ibraheem-89b1012a4/)
-[Rachail Pomerlee](https://github.com/raykale)
++ [Nicole Beechler](https://github.com/nicolebeechler)
++ [Paul Shephard](https://github.com/pshephardiii)
++ [Junfeng Qiao](https://github.com/EmmaQjf)
++ [Omar Ibraheem](https://www.linkedin.com/in/omar-ibraheem-89b1012a4/)
++ [Rachail Pomerlee](https://github.com/raykale)
